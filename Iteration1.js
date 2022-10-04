@@ -10,7 +10,7 @@ const movies = [
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
 
-newArr = [];
+let newArr = [];
 
 for (const movie of movies) {
     for (const genre of movie.categories) {
